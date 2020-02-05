@@ -1,0 +1,90 @@
+/*
+Theme Name:   Orca Scouts
+Description:  Tweeks
+Author:       evoxalien
+Author URL:   Write here the author's blog or website url
+Template:     twentyseventeen
+Version:      1.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  orca-scouts
+*/
+
+/* Write here your own personal stylesheet */
+@media screen and (min-width: 48em) {
+	.panel-image {
+		height: 50vh;
+		max-height: 1200px;
+	}
+	
+		body:not(.has-sidebar):not(.page-one-column) .page-header,
+	body.has-sidebar.error404 #primary .page-header,
+	body.page-two-column:not(.archive) #primary .entry-header,
+	body.page-two-column.archive:not(.has-sidebar) #primary .page-header {
+		width: 20% !important;
+	}
+
+	.blog:not(.has-sidebar) #primary article,
+	.archive:not(.page-one-column):not(.has-sidebar) #primary article,
+	.search:not(.has-sidebar) #primary article,
+	.error404:not(.has-sidebar) #primary .page-content,
+	.error404.has-sidebar #primary .page-content,
+	body.page-two-column:not(.archive) #primary .entry-content,
+	body.page-two-column #comments {
+		width: 80% !important;
+	}
+}
+
+.single-featured-image-header {
+    height: 50vh;
+}
+
+.page-id-17 img.size-twentyseventeen-featured-image {
+    position: relative;
+    top: -30vh;
+}
+
+.single-featured-image-header {
+    overflow: hidden;
+}
+
+.colors-dark .site-footer,
+.colors-dark .navigation-top,
+.colors-dark .main-navigation ul {
+	background: #194C23 !important;
+}
+
+/* body.colors-dark,
+.colors-dark .site-content-contain,
+.colors-dark .navigation-top,
+.colors-dark .main-navigation ul {
+	background: #194C23 !important;
+} */
+
+
+strong:nth-child(7n+0) {
+	color:#AEE8DC;
+}
+strong:nth-child(7n-1) {
+	color:#F7C1BB;
+}
+strong:nth-child(7n-2) {
+	color:#F5D2B0;
+}
+strong:nth-child(7n-3) {
+	color:#F9EAAA;
+}
+strong:nth-child(7n-4) {
+	color:#DDC6E6;
+}
+strong:nth-child(7n-5) {
+	color:#B8DBF2;
+}
+strong:nth-child(7n-6) {
+	color:#B7EDCE;
+}
+
+
+svg.icon.icon-arrow-right {
+    color: #FFF;
+}
